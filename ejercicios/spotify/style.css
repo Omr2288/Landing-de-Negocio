@@ -1,0 +1,35 @@
+.contenedor{
+    width: 70%;
+    border: 2px solid #bbb;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.textos{
+    color: rgb(130, 38, 38);
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border:  2px solid #bbb;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.color1{
+    background-color: lightpink;
+}
+.color2{
+    background-color: rgb(58, 170, 222);
+}
+.color3{
+    background-color: lightpink;
+}
+.color4{
+    background-color: lightpink;
+}
+.color5{
+    background-color: lightpink;
+}
