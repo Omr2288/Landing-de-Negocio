@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #47B5FF;
+}
+
+.header{
+    background-color:#25316D;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-menu-link{
+    color: rgb(252, 245, 245);
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.logo{
+    height: 100px;
+    width: 110px;
+    padding: 10px 20px 20px;
+}
+
+.h1{
+    margin-top: 30px;
+    display: flex;
+    color: rgb(252, 245, 245);
+    
+}
+
+.logo:hover{
+    height: 110px;
+    transition: 0.5s;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size:20px ;
+    margin: 0 10px;
+    padding: 5px ;
+    align-items: center;
+    width: max-content;
+}
+
+.nav-menu-link:hover{
+    background-color: #97D2EC;
+    transition: 0.5s;
+    border-radius: 5px;
+    height: 30px;
+    padding: 8px 12px;
+}
+
+.jumbotron{
+    
+    color: aliceblue;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 4 ;
+    margin-top: 100px;
+}
+
+.title{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.h2como{
+    color: #97D2EC;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.img-como{
+    height: 400px;
+    width: 250px;
+
+}
+
+.img{
+    display: flex;
+    margin: 60px 200px 60px;  
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+.con1{
+    border: solid;
+    border-radius: 10px;
+    border-color: beige;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    margin: 20px 20PX 20px;
+    background-color: #5F6F94;
+    
+    }
+
+.como{
+    margin: 100px 100px 0;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.pcomo{
+    font-size: large;
+    font-family: sans-serif;
+    max-width: 70%;
+}
+
+.servicios{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: solid;
+    border-radius: 10px;
+    border-color: beige;
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    margin: 20px 20px 20px;
+    background-color: #5F6F94;
+    text-decoration: none;
+    gap: 20px; 
+    height: 1300px;
+    width: auto;
+    
+}
+
+
+
+.ulser{
+    height: 600px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2 ;
+    padding: 0px 50px 0;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.h2ser{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 30px;
+    color: #97D2EC;
+}
+
+
+.p{
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.Frenos{
+    width: 300px;
+    height: 500px;
+    border: solid;
+    border-radius: 4px;
+    border-color: beige;
+    text-align: center;
+    flex-direction: row;
+    text-decoration: none;
+
+}
+
+.Frenos h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Frenos li{
+    font-size: larger;
+    margin-top: 10px;
+}
+.imglavado{
+    width: 250px;
+    margin-top: 20px;
+    height: 150px;
+}
+.cambio{
+    width: 300px;
+    height: 500px;
+    border: solid;
+    border-radius: 4px;
+    border-color: beige;
+    text-align: center;
+    
+}
+.cambio p{
+    padding: 15px 20px 0;
+}
+.imgcambio{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border-radius: 10ps;
+}
+
+.suspencion{
+    width: 300px;
+    height: 500px;
+    border: solid;
+    border-radius: 4px;
+    border-color: beige;
+    text-align: center;
+    background-image: url();
+}
+.suspencion p{
+    padding: 15px 20px 10px;
+}
+
+
+.mantenimiento{
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-radius: 4px;
+    border-color: beige;
+    text-align: center;
+    margin-left: 200px ;
+
+}
+.mantenimiento P{
+    padding: 15px 20px 10px;
+}
+
+.transmision{
+    width: 100%;
+    height: 300px;
+    border: solid;
+    border-radius: 4px;
+    border-color: beige;
+    text-align: center;
+    margin-left: 200px ;
+}
+.transmision p{
+    padding: 15px 20px 10px;
+}
+
+.Conocenos{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border: solid;
+    border-radius: 4px;
+    border-color: beige;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20PX 0;
+    background-color: #5F6F94;
+}
+
+.Conocenos h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Conocenos p{
+    text-align: center;
+    padding: 15px 20px 20px;
+
+}
+.contacto{
+    border: solid;
+    border-radius: 4px;
+    border-color: beige;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20PX 20px;
+    margin: 20px 20PX 20px;
+    background-color: #5F6F94;
+} 
+.contacto h2{
+    text-align: center;
+
+}
+.contacto input{
+    width: 300px;
+    margin-top: 20px;
+}
+.contacto button{
+  width: 100px;
+  margin-top: 10px;
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+.button-21:hover {
+  background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #25316D;
+    color: aliceblue;
+    text-align: center;
+}
+.footer img{
+    color: aliceblue;
+    width: 35px;
+    height: 35px;
+}
+@media screen {
+    
+}
